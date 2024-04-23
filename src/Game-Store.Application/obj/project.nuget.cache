@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nenayhbNfy9qa4iuF/knIMiPLfekxOejQ4VmUITVdoVg8m5yqZbHoe7aT3DKiCTa+OPueTtC838L83gVpNQAHA==",
+  "dgSpecHash": "5c58Exx8BSI8am8qVAeP0vuwGiJq4oLvBCo38gRscsso/Lo2gSOrc7EUycHopsjL+utOtAGdGYuoztIlKptu5Q==",
   "success": true,
-  "projectFilePath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj",
+  "projectFilePath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denro\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\denro\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",

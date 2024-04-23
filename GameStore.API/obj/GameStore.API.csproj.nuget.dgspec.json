@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\.NetCodes\\MVC\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj": {}
+    "C:\\.NetCodes\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj": {}
   },
   "projects": {
-    "C:\\.NetCodes\\MVC\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj": {
+    "C:\\.NetCodes\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.NetCodes\\MVC\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj",
+        "projectUniqueName": "C:\\.NetCodes\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj",
         "projectName": "GameStore.API",
-        "projectPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj",
+        "projectPath": "C:\\.NetCodes\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj",
         "packagesPath": "C:\\Users\\denro\\.nuget\\packages\\",
-        "outputPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\GameStore.API\\obj\\",
+        "outputPath": "C:\\.NetCodes\\Nova-Arcade\\GameStore.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\denro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
-                "projectPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj"
+              "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
+                "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj"
               },
-              "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
-                "projectPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj"
+              "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
+                "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj"
               },
-              "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
-                "projectPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj"
+              "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
+                "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
+    "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj",
+        "projectUniqueName": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj",
         "projectName": "Game-Store.Application",
-        "projectPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj",
+        "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj",
         "packagesPath": "C:\\Users\\denro\\.nuget\\packages\\",
-        "outputPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Application\\obj\\",
+        "outputPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\denro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
-                "projectPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj"
+              "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
+                "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj"
               }
             }
           }
@@ -173,14 +173,14 @@
         }
       }
     },
-    "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
+    "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
+        "projectUniqueName": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
         "projectName": "Game-Store.Domain",
-        "projectPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
+        "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
         "packagesPath": "C:\\Users\\denro\\.nuget\\packages\\",
-        "outputPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Domain\\obj\\",
+        "outputPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\denro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -243,14 +243,14 @@
         }
       }
     },
-    "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
+    "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj",
+        "projectUniqueName": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj",
         "projectName": "Game-Store.Infrastructure",
-        "projectPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj",
+        "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\denro\\.nuget\\packages\\",
-        "outputPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Infrastructure\\obj\\",
+        "outputPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\denro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -267,8 +267,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
-                "projectPath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj"
+              "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
+                "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj"
               }
             }
           }

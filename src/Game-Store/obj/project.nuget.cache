@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U3K+kTWeeZjRVC+XM7i2nQMHrARWz9yvHCc239twCPN5VK+ORApEECmWaCP9dbxzN1QHYYyVxkWyITPkHFF73A==",
+  "dgSpecHash": "rLz/QNMHJDsse/c3k5lTDrT1CoRX7h5N9pElTRnXnlH4wh+rue1AWUnQhDXLG5IaihoOTEVUO4wBsmPVfjiQpg==",
   "success": true,
-  "projectFilePath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store\\Game-Store.MVC.csproj",
+  "projectFilePath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\Game-Store.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denro\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\denro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

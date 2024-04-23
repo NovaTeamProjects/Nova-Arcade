@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d2bEOxWSARNSnzBbZfKYQtxuN8/oQ9KiEJpPf4f/B+QCb556iOmajpbCpup8TKmRPxvW7/PYWDdK3lZ8RKNkiQ==",
+  "dgSpecHash": "94e2SdE4ZsCHEHL3KbI1Ukcj5KUoxpE0J+xmKOZCif6WdRZvo0SYuDLYB+zA6OKXvJMfcCz9TNpcXTodDNqpTw==",
   "success": true,
-  "projectFilePath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
+  "projectFilePath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denro\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.1\\microsoft.aspnetcore.authentication.2.1.1.nupkg.sha512",
     "C:\\Users\\denro\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.1\\microsoft.aspnetcore.authentication.abstractions.2.1.1.nupkg.sha512",

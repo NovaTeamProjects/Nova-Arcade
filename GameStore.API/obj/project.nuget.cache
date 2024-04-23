@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UJaAh6XUtiK5MOcoW4wKWr0X0b/VwzEqdnfTnBSQk5M61nkPEoUbs3Ej8zMtDGty0zC0VfeJD7f32Z0/z/sbdw==",
+  "dgSpecHash": "cwGtQ0RLYRLnE6SB5YivuktmXaQ/dBZhuKCcko4TgfNIQkj5bzR6oRUNjeB2aiCgFwyivuKWd+242WH5ljCU6g==",
   "success": true,
-  "projectFilePath": "C:\\.NetCodes\\MVC\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj",
+  "projectFilePath": "C:\\.NetCodes\\Nova-Arcade\\GameStore.API\\GameStore.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denro\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\denro\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
