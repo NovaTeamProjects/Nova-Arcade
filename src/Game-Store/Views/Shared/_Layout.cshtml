@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Nova Arcade</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Game_Store.styles.css" asp-append-version="true" />
+    <link rel="icon" type="image/png" href="~/favicon.png">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    @if (ViewBag.HideNavbar == null || ViewBag.HideNavbar == false)
+    {
+        <div class="sidebar">
+            <div class="logo-details">
+                <img src="~/assets/Nova Arcade.svg" alt="NovaArcadeLogo" class="icon" style="width: 60px; height: 50px" />
+                <div class="logo_name">Nova Arcade</div>
+                <i class='bx bx-menu' id="btn"></i>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search store">
+                    <span class="tooltip">Search</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-bar-chart-alt-2'></i>
+                        <span class="links_name">Store</span>
+                    </a>
+                    <span class="tooltip">Store</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-joystick'></i>
+                        <span class="links_name">Library</span>
+                    </a>
+                    <span class="tooltip">Library</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-ghost'></i>
+                        <span class="links_name">Browse</span>
+                    </a>
+                    <span class="tooltip">Browse</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-hive'></i>
+                        <span class="links_name">Wishlist</span>
+                    </a>
+                    <span class="tooltip">Wishlist</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-cart-alt'></i>
+                        <span class="links_name">Cart</span>
+                    </a>
+                    <span class="tooltip">Cart</span>
+                </li>
+                @if (ViewBag.Admin == true)
+                {
+                    <li>
+                        <a href="@Url.Action("Index", "NewGame")">
+                            <i class='bx bx-game'></i>
+                            <span class="links_name">New Game</span>
+                        </a>
+                        <span class="tooltip">New Game</span>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index", "NewSystemReqs")">
+                            <i class='bx bx-slider-alt'></i>
+                            <span class="links_name">New System Reqs</span>
+                        </a>
+                        <span class="tooltip">New System Requirements</span>
+                    </li>
+                }
+                <li class="profile">
+                    <div class="profile-details">
+                        <img src="profile.jpg" alt="profileImg">
+                        <div class="name_job">
+                            <div class="name">Den Rov</div>
+                            <div class="job">Creator</div>
+                        </div>
+                    </div>
+                    <a href="@Url.Action("Index", "Login")">
+                        <i class='bx bx-log-out' id="log_out"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    }
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
