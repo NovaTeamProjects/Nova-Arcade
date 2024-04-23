@@ -1,0 +1,13 @@
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\bin\Debug\net8.0\Game-Store.Domain.deps.json
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\bin\Debug\net8.0\Game-Store.Domain.dll
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\bin\Debug\net8.0\Game-Store.Domain.pdb
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.csproj.AssemblyReference.cache
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.AssemblyInfoInputs.cache
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.AssemblyInfo.cs
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.csproj.CoreCompileInputs.cache
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.sourcelink.json
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.dll
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\refint\Game-Store.Domain.dll
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.pdb
+C:\.NetCodes\MVC\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\ref\Game-Store.Domain.dll
