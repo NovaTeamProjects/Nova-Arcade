@@ -10,10 +10,10 @@ namespace Game_Store.Controllers
     public class LoginController : Controller
     {
         private readonly UserManager<User> _userManager;
-        private readonly RoleManager<Role> _roleManager;
+        private readonly RoleManager<IdentityRole<Guid>> _roleManager;
         private readonly SignInManager<User> _signInManager;
 
-        public LoginController(UserManager<User> userManager, RoleManager<Role> roleManager, SignInManager<User> signInManager)
+        public LoginController(UserManager<User> userManager, RoleManager<IdentityRole<Guid>> roleManager, SignInManager<User> signInManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -91,13 +91,15 @@ namespace Game_Store.Controllers
                     {
                         user = new User()
                         {
+                            Id = Guid.NewGuid(),
                             UserName = info.Principal.FindFirstValue(ClaimTypes.Name),
                             Email = userEmail,
                             EmailConfirmed = true,
                         };
 
                         await _userManager.CreateAsync(user);
-                        //await _userManager.AddToRoleAsync(user, "User");
+
+                        await _userManager.AddToRoleAsync(user, "User");
                     }
 
                     // Add a login (i.e., insert a row for the user in AspNetUserLogins table)

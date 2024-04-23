@@ -1,4 +1,4 @@
-body[b-gl8xzaokrk] {
+body[b-59x77c25id] {
     font-family: 'Arial', sans-serif;
     background-color: #1f1f1f;
     color: #fff;
@@ -6,7 +6,7 @@ body[b-gl8xzaokrk] {
     padding: 0;
 }
 
-.container[b-gl8xzaokrk] {
+.container[b-59x77c25id] {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
@@ -15,17 +15,17 @@ body[b-gl8xzaokrk] {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-h1[b-gl8xzaokrk] {
+h1[b-59x77c25id] {
     text-align: center;
     color: #ff6600;
 }
 
-label[b-gl8xzaokrk] {
+label[b-59x77c25id] {
     display: block;
     margin-bottom: 5px;
 }
 
-input[type="text"][b-gl8xzaokrk], input[type="image"][b-gl8xzaokrk], input[type="number"][b-gl8xzaokrk] {
+input[type="text"][b-59x77c25id], input[type="image"][b-59x77c25id], input[type="number"][b-59x77c25id] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -35,7 +35,7 @@ input[type="text"][b-gl8xzaokrk], input[type="image"][b-gl8xzaokrk], input[type=
     color: #fff;
 }
 
-input[type="submit"][b-gl8xzaokrk] {
+input[type="submit"][b-59x77c25id] {
     width: 100%;
     padding: 10px;
     border: none;
@@ -46,6 +46,6 @@ input[type="submit"][b-gl8xzaokrk] {
     transition: background-color 0.3s ease;
 }
 
-input[type="submit"]:hover[b-gl8xzaokrk] {
+input[type="submit"]:hover[b-59x77c25id] {
     background-color: #ff8c1a;
 }

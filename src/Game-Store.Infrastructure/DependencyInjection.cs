@@ -1,6 +1,8 @@
 ﻿
 using Game_Store.Application.Abstractions;
+using Game_Store.Domain.Entities.Auth;
 using Game_Store.Infrastructure.Persistance;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

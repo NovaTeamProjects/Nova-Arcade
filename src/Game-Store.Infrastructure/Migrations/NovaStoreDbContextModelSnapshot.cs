@@ -26,33 +26,6 @@ namespace Game_Store.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Game_Store.Domain.Entities.Auth.Role", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .IsConcurrencyToken()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Name")
-                        .HasMaxLength(256)
-                        .HasColumnType("character varying(256)");
-
-                    b.Property<string>("NormalizedName")
-                        .HasMaxLength(256)
-                        .HasColumnType("character varying(256)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NormalizedName")
-                        .IsUnique()
-                        .HasDatabaseName("RoleNameIndex");
-
-                    b.ToTable("AspNetRoles", (string)null);
-                });
-
             modelBuilder.Entity("Game_Store.Domain.Entities.Auth.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -130,10 +103,8 @@ namespace Game_Store.Infrastructure.Migrations
 
                     b.Property<string>("Developer")
                         .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<Guid?>("GameId")
-                        .HasColumnType("uuid");
+                        .HasMaxLength(80)
+                        .HasColumnType("character varying(80)");
 
                     b.Property<List<string>>("Genres")
                         .IsRequired()
@@ -141,7 +112,8 @@ namespace Game_Store.Infrastructure.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.Property<List<string>>("Photos")
                         .IsRequired()
@@ -149,7 +121,8 @@ namespace Game_Store.Infrastructure.Migrations
 
                     b.Property<string>("Platform")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
 
                     b.Property<string>("Poster")
                         .IsRequired()
@@ -160,7 +133,8 @@ namespace Game_Store.Infrastructure.Migrations
 
                     b.Property<string>("Publisher")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(80)
+                        .HasColumnType("character varying(80)");
 
                     b.Property<string>("RatingsGuide")
                         .IsRequired()
@@ -190,8 +164,6 @@ namespace Game_Store.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("GameId");
-
                     b.HasIndex("SysReqId");
 
                     b.HasIndex("UserId");
@@ -201,6 +173,26 @@ namespace Game_Store.Infrastructure.Migrations
                     b.HasIndex("UserId2");
 
                     b.ToTable("Games");
+                });
+
+            modelBuilder.Entity("Game_Store.Domain.Entities.GameEdition", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("EditionName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("GameId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GameId");
+
+                    b.ToTable("GameEdition");
                 });
 
             modelBuilder.Entity("Game_Store.Domain.Entities.SystemRequirement", b =>
@@ -215,11 +207,13 @@ namespace Game_Store.Infrastructure.Migrations
 
                     b.Property<string>("DirectX")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(15)
+                        .HasColumnType("character varying(15)");
 
                     b.Property<string>("DiskSpace")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
 
                     b.Property<string>("GPU")
                         .IsRequired()
@@ -231,7 +225,8 @@ namespace Game_Store.Infrastructure.Migrations
 
                     b.Property<string>("Memory")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
 
                     b.Property<string>("OS")
                         .IsRequired()
@@ -240,6 +235,33 @@ namespace Game_Store.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("SystemRequirements");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex");
+
+                    b.ToTable("AspNetRoles", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
@@ -347,10 +369,6 @@ namespace Game_Store.Infrastructure.Migrations
 
             modelBuilder.Entity("Game_Store.Domain.Entities.Game", b =>
                 {
-                    b.HasOne("Game_Store.Domain.Entities.Game", null)
-                        .WithMany("Editions")
-                        .HasForeignKey("GameId");
-
                     b.HasOne("Game_Store.Domain.Entities.SystemRequirement", "SysReq")
                         .WithMany()
                         .HasForeignKey("SysReqId")
@@ -372,9 +390,20 @@ namespace Game_Store.Infrastructure.Migrations
                     b.Navigation("SysReq");
                 });
 
+            modelBuilder.Entity("Game_Store.Domain.Entities.GameEdition", b =>
+                {
+                    b.HasOne("Game_Store.Domain.Entities.Game", "Game")
+                        .WithMany("GameEditions")
+                        .HasForeignKey("GameId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Game");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
                 {
-                    b.HasOne("Game_Store.Domain.Entities.Auth.Role", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -401,7 +430,7 @@ namespace Game_Store.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
                 {
-                    b.HasOne("Game_Store.Domain.Entities.Auth.Role", null)
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -434,7 +463,7 @@ namespace Game_Store.Infrastructure.Migrations
 
             modelBuilder.Entity("Game_Store.Domain.Entities.Game", b =>
                 {
-                    b.Navigation("Editions");
+                    b.Navigation("GameEditions");
                 });
 #pragma warning restore 612, 618
         }

@@ -42,10 +42,6 @@ namespace Game_Store.Infrastructure.Configurations
                 .IsRequired();
 
             builder
-                .Property(x => x.Editions)
-                .IsRequired();
-
-            builder
                 .Property(x => x.ReleaseDate)
                 .IsRequired();
 
@@ -62,10 +58,6 @@ namespace Game_Store.Infrastructure.Configurations
             builder
                 .Property(x => x.Platform)
                 .HasMaxLength(10)
-                .IsRequired();
-
-            builder
-                .Property(x => x.SoldCount)
                 .IsRequired();
         }
     }

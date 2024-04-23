@@ -3,6 +3,7 @@ using Game_Store.Domain.Entities.Auth;
 using Game_Store.Infrastructure;
 using Game_Store.Infrastructure.Persistance;
 using GameStore.API.Middlewares;
+using Microsoft.AspNetCore.Identity;
 using Serilog;
 
 namespace GameStore.API
@@ -12,6 +13,13 @@ namespace GameStore.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            var logger = new LoggerConfiguration()
+               .ReadFrom.Configuration(builder.Configuration)
+               .Enrich.FromLogContext()
+               .CreateLogger();
+            //builder.Logging.ClearProviders(); // write to console without it
+            builder.Logging.AddSerilog(logger);
 
             // Add services to the container.
 
@@ -23,15 +31,9 @@ namespace GameStore.API
 
             builder.Services.AddInfrastructure(builder.Configuration);
 
-            builder.Services.AddIdentity<User, Role>()
-                .AddEntityFrameworkStores<NovaStoreDbContext>();
-
-            var logger = new LoggerConfiguration()
-               .ReadFrom.Configuration(builder.Configuration)
-               .Enrich.FromLogContext()
-               .CreateLogger();
-            //builder.Logging.ClearProviders(); // write to console without it
-            builder.Logging.AddSerilog(logger);
+            builder.Services.AddIdentity<User, IdentityRole<Guid>>()
+                .AddEntityFrameworkStores<NovaStoreDbContext>()
+                .AddDefaultTokenProviders();
 
             builder.Services.AddCors(options =>
             {

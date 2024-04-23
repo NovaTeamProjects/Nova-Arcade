@@ -11,7 +11,6 @@
         public string Description { get; set; }
         public List<string> Genres { get; set; }
         public string RatingsGuide { get; set; }
-        public virtual List<Game> Editions { get; set; }
         public DateTimeOffset ReleaseDate { get; set; }
         public string Developer { get; set; }
         public string Publisher { get; set; }
@@ -19,5 +18,14 @@
         public long SoldCount { get; set; }
         public Guid SysReqId { get; set; }
         public virtual SystemRequirement SysReq { get; set; }
+        public virtual ICollection<GameEdition> GameEditions { get; set; }
+    }
+
+    public class GameEdition
+    {
+        public Guid Id { get; set; }
+        public Guid GameId { get; set; }
+        public virtual Game Game { get; set; }
+        public string EditionName { get; set; }
     }
 }
