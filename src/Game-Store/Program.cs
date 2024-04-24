@@ -35,6 +35,12 @@ namespace Game_Store
                 {
                     options.ClientId = builder.Configuration["Auth:Google:ClientId"]!;
                     options.ClientSecret = builder.Configuration["Auth:Google:ClientSecret"]!;
+                })
+                .AddFacebook(options =>
+                {
+                    options.AppId = builder.Configuration["Auth:Facebook:AppId"]!;
+                    options.AppSecret = builder.Configuration["Auth:Facebook:AppSecret"]!;
+                    options.AccessDeniedPath = "/AccessDeniedPathInfo";
                 });
 
             builder.Services.AddAuthorization(options =>
