@@ -89,10 +89,12 @@ namespace Game_Store.Controllers
 
                     if (user == null)
                     {
+                        var username = info.Principal.FindFirstValue(ClaimTypes.GivenName) + info.Principal.FindFirstValue(ClaimTypes.Surname);
+
                         user = new User()
                         {
                             Id = Guid.NewGuid(),
-                            UserName = info.Principal.FindFirstValue(ClaimTypes.Name),
+                            UserName = username,
                             Email = userEmail,
                             EmailConfirmed = true,
                         };
