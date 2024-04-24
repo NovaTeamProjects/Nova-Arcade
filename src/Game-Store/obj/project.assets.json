@@ -168,6 +168,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Facebook/8.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.Google/8.0.4": {
         "type": "package",
         "compile": {
@@ -2400,6 +2416,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.xml",
         "microsoft.aspnetcore.authentication.core.2.1.1.nupkg.sha512",
         "microsoft.aspnetcore.authentication.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/8.0.4": {
+      "sha512": "AP/6PsDX9fy0Y/l1AxGF4F7sG0nOJsYCysiuz9I+4MhvLVwMEMhYBxH9BvfderCaR+MZwd0zGV22flmfjNhJeA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/8.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.8.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Google/8.0.4": {
@@ -5304,6 +5335,7 @@
       "Game-Store.Application >= 1.0.0",
       "Game-Store.Infrastructure >= 1.0.0",
       "MediatR >= 11.0.0",
+      "Microsoft.AspNetCore.Authentication.Facebook >= 8.0.4",
       "Microsoft.AspNetCore.Authentication.Google >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.2",
       "Serilog.AspNetCore >= 8.0.1"
@@ -5363,6 +5395,10 @@
           "MediatR": {
             "target": "Package",
             "version": "[11.0.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Facebook": {
+            "target": "Package",
+            "version": "[8.0.4, )"
           },
           "Microsoft.AspNetCore.Authentication.Google": {
             "target": "Package",

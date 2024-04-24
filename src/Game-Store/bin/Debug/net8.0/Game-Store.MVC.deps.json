@@ -11,6 +11,7 @@
           "Game-Store.Application": "1.0.0",
           "Game-Store.Infrastructure": "1.0.0",
           "MediatR": "11.0.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "8.0.4",
           "Microsoft.AspNetCore.Authentication.Google": "8.0.4",
           "Microsoft.EntityFrameworkCore.Design": "8.0.2",
           "Serilog.AspNetCore": "8.0.1"
@@ -116,6 +117,14 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.1.1",
           "Microsoft.AspNetCore.Http": "2.1.1",
           "Microsoft.AspNetCore.Http.Extensions": "2.1.1"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/8.0.4": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "8.0.4.0",
+            "fileVersion": "8.0.424.17014"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication.Google/8.0.4": {
@@ -1207,6 +1216,13 @@
       "sha512": "sha512-Zo6SLzqxrW0PFg1AB0xSb+Rta4hCuX8hgOY425ldhFq4kKcmw45oJQ2zOIeeW/6EuBtEy+hwDB96baxTmXtfeA==",
       "path": "microsoft.aspnetcore.authentication.core/2.1.1",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/8.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AP/6PsDX9fy0Y/l1AxGF4F7sG0nOJsYCysiuz9I+4MhvLVwMEMhYBxH9BvfderCaR+MZwd0zGV22flmfjNhJeA==",
+      "path": "microsoft.aspnetcore.authentication.facebook/8.0.4",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.8.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Google/8.0.4": {
       "type": "package",

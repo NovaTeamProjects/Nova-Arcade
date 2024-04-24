@@ -26,18 +26,23 @@
             </div>
         </div>
         <div class="line"></div>
-        <div class="media-options">
-            <a href="#" class="field facebook">
-                <img src="~/assets/Facebook-Icon.svg" alt="" class='facebook-icon'>
-                <span>Login with Facebook</span>
-            </a>
-        </div>
+        <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
+            <div class="media-options">
+                <button type="submit"
+                        class="field facebook"
+                        name="provider"
+                        value="@Model.ExternalLogins![1].Name">
+                    <img src="~/assets/Facebook-Icon.svg" alt="" class='facebook-icon'>
+                    <span>Login with Facebook</span>
+                </button>
+            </div>
+        </form>
         <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
             <div class="media-options">
                 <button type="submit"
                         class="field google"
                         name="provider"
-                        value="@Model.ExternalLogins!.First().Name">
+                        value="@Model.ExternalLogins![0].Name">
                     <img src="~/assets/Google-Icon.svg" alt="" class="google-img">
                     <span>Login with Google</span>
                 </button>

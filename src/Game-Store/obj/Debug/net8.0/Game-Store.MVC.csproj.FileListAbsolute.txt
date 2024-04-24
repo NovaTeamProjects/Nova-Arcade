@@ -278,3 +278,4 @@ C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\refint\Game-Store.MVC.d
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\Game-Store.MVC.pdb
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\Game-Store.MVC.genruntimeconfig.cache
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\ref\Game-Store.MVC.dll
+C:\.NetCodes\Nova-Arcade\src\Game-Store\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
