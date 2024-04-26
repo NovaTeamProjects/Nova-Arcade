@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\assets\\Google-Icon.svg"
     },
     {
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\assets\\Login-BackImage.jpg",
+      "PackagePath": "staticwebassets\\assets\\Login-BackImage.jpg"
+    },
+    {
       "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\assets\\Nova Arcade.svg",
       "PackagePath": "staticwebassets\\assets\\Nova Arcade.svg"
     },
