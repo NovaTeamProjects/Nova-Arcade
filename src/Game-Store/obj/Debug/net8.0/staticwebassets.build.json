@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2T5pZVV04BjYOBCLrZHBZ3fs4k0jarVjyi9qNHtXki0=",
+  "Hash": "mOZOcDZVbydkRHFmKnblAGgAe44NheraEYFhnJytDVc=",
   "Source": "Game-Store.MVC",
   "BasePath": "_content/Game-Store.MVC",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\Google-Icon.svg"
+    },
+    {
+      "Identity": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\assets\\Login-BackImage.jpg",
+      "SourceId": "Game-Store.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\",
+      "BasePath": "_content/Game-Store.MVC",
+      "RelativePath": "assets/Login-BackImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Login-BackImage.jpg"
     },
     {
       "Identity": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\assets\\Nova Arcade.svg",

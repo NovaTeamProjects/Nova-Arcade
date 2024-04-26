@@ -73,12 +73,17 @@
             </div>
         </div>
         <div class="line"></div>
-        <div class="media-options">
-            <a href="#" class="field facebook">
-                <img src="~/assets/Facebook-Icon.svg" alt="" class='facebook-icon'>
-                <span>Sign Up with Facebook</span>
-            </a>
-        </div>
+        <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
+            <div class="media-options">
+                <button type="submit"
+                        class="field facebook"
+                        name="provider"
+                        value="@Model.ExternalLogins![1].Name">
+                    <img src="~/assets/Facebook-Icon.svg" alt="" class='facebook-icon'>
+                    <span>Sign Up with Facebook</span>
+                </button>
+            </div>
+        </form>
         <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
             <div class="media-options">
                 <button type="submit"
