@@ -120,5 +120,10 @@ namespace Game_Store.Controllers
             return View("Login", model);
         }
 
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
