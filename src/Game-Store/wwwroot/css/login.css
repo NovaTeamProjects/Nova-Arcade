@@ -24,7 +24,7 @@
     width: 100%;
     padding: 30px;
     border-radius: 6px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(17, 16, 29, 0.8);
 }
 
     .form.signup {
@@ -45,7 +45,7 @@
 header {
     font-size: 28px;
     font-weight: 600;
-    color: #CACACA;
+    color: #FFF;
     text-align: center;
 }
 
@@ -93,14 +93,14 @@ form {
 }
 
 .field button {
-    color: #fff;
-    background-color: #0171d3;
+    color: #FFF;
+    background-color: #390d69;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
     .field button:hover {
-        background-color: #016dcb;
+        background-color: #540286;
     }
 
 .form-link {
@@ -112,7 +112,7 @@ form {
     .form-link a {
         font-size: 14px;
         font-weight: 400;
-        color: #232836;
+        color: #FFF;
     }
 
 .form a {
@@ -138,23 +138,23 @@ form {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: #FFF;
-        color: #8b8b8b;
+        background-color: rgb(17, 16, 29);
+        color: #FFF;
         padding: 0 15px;
     }
 
-.media-options a {
+.media-options button {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-a.facebook {
+button.facebook {
     color: #fff;
     background-color: #4267b2;
 }
 
-    a.facebook .facebook-icon {
+    button.facebook .facebook-icon {
         height: 28px;
         width: 28px;
         color: #0171d3;
@@ -175,16 +175,17 @@ img.google-img {
 }
 
 img.google-img {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
+    left: 17px;
     object-fit: cover;
 }
 
-a.google {
+button.google {
     border: 1px solid #CACACA;
 }
 
-    a.google span {
+    button.google span {
         font-weight: 500;
         opacity: 0.6;
         color: #232836;
