@@ -31,6 +31,12 @@ namespace Game_Store.Controllers
             return View(model);
         }
 
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
+
         [HttpPost]
         [AllowAnonymous]
         public IActionResult ExternalLogin(string provider, string returnUrl)
@@ -118,12 +124,6 @@ namespace Game_Store.Controllers
 
             ModelState.AddModelError("", $"Something went wrong");
             return View("Login", model);
-        }
-
-        public async Task<IActionResult> LogOut()
-        {
-            await _signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home");
         }
     }
 }
