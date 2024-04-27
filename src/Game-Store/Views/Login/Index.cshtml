@@ -28,10 +28,7 @@
         <div class="line"></div>
         <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
             <div class="media-options">
-                <button type="submit"
-                        class="field facebook"
-                        name="provider"
-                        value="@Model.ExternalLogins![1].Name">
+                <button type="submit" class="field facebook" name="provider" value="@Model.ExternalLogins![1].Name">
                     <img src="~/assets/Facebook-Icon.svg" alt="" class='facebook-icon'>
                     <span>Login with Facebook</span>
                 </button>
@@ -39,10 +36,7 @@
         </form>
         <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
             <div class="media-options">
-                <button type="submit"
-                        class="field google"
-                        name="provider"
-                        value="@Model.ExternalLogins![0].Name">
+                <button type="submit" class="field google" name="provider" value="@Model.ExternalLogins![0].Name">
                     <img src="~/assets/Google-Icon.svg" alt="" class="google-img">
                     <span>Login with Google</span>
                 </button>
@@ -54,6 +48,9 @@
         <div class="form-content">
             <header>Sign up</header>
             <form action="#">
+                <div class="field input-field">
+                    <input placeholder="Username" class="input">
+                </div>
                 <div class="field input-field">
                     <input type="email" placeholder="Email" class="input">
                 </div>
@@ -75,10 +72,7 @@
         <div class="line"></div>
         <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
             <div class="media-options">
-                <button type="submit"
-                        class="field facebook"
-                        name="provider"
-                        value="@Model.ExternalLogins![1].Name">
+                <button type="submit" class="field facebook" name="provider" value="@Model.ExternalLogins![1].Name">
                     <img src="~/assets/Facebook-Icon.svg" alt="" class='facebook-icon'>
                     <span>Sign up with Facebook</span>
                 </button>
@@ -86,10 +80,7 @@
         </form>
         <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
             <div class="media-options">
-                <button type="submit"
-                    class="field google"
-                    name="provider"
-                    value="@Model.ExternalLogins!.First().Name">
+                <button type="submit" class="field google" name="provider" value="@Model.ExternalLogins!.First().Name">
                     <img src="~/assets/Google-Icon.svg" alt="" class="google-img">
                     <span>Sign up with Google</span>
                 </button>

@@ -22,6 +22,7 @@ namespace Game_Store.Controllers
 
         public async Task<IActionResult> Index(string? ReturnUrl = null)
         {
+            ViewBag.Authorized = true;
             var model = new LoginVM
             {
                 ReturnUrl = ReturnUrl,
@@ -33,6 +34,7 @@ namespace Game_Store.Controllers
 
         public async Task<IActionResult> LogOut()
         {
+            ViewBag.Authorized = false;
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
@@ -41,14 +43,10 @@ namespace Game_Store.Controllers
         [AllowAnonymous]
         public IActionResult ExternalLogin(string provider, string returnUrl)
         {
-            //This call will generate a URL that directs to the ExternalLoginCallback action method in the Account controller
-            //with a route parameter of ReturnUrl set to the value of returnUrl.
             var redirectUrl = Url.Action("ExternalLoginCallback", "Login", new { ReturnUrl = returnUrl });
 
-            // Configure the redirect URL, provider and other properties
             var properties = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
 
-            //This will redirect the user to the external provider's login page
             return new ChallengeResult(provider, properties);
         }
 
@@ -70,7 +68,6 @@ namespace Game_Store.Controllers
                 return View("Login", model);
             }
 
-            // Get the login information about the user from the external login provider
             var info = await _signInManager.GetExternalLoginInfoAsync();
             if (info == null)
             {
@@ -85,7 +82,6 @@ namespace Game_Store.Controllers
             if (signInResult.Succeeded)
                 return RedirectToAction("Index", "Home");
 
-            // If there is no record in AspNetUserLogins table, the user may not have a local account
             else
             {
                 var userEmail = info.Principal.FindFirstValue(ClaimTypes.Email);
@@ -103,6 +99,7 @@ namespace Game_Store.Controllers
                             Id = Guid.NewGuid(),
                             Name = name!,
                             Surname = surname!,
+                            UserName = name + " " + surname,
                             Email = userEmail,
                             EmailConfirmed = true,
                         };
@@ -112,7 +109,6 @@ namespace Game_Store.Controllers
                         await _userManager.AddToRoleAsync(user, "User");
                     }
 
-                    // Add a login (i.e., insert a row for the user in AspNetUserLogins table)
                     await _userManager.AddLoginAsync(user, info);
 
                     await _signInManager.SignInAsync(user, false);

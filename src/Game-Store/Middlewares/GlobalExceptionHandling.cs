@@ -22,7 +22,7 @@ namespace Game_Store.Middlewares
             {
                 context.Response.Redirect("/Exceptions/NotFound");
             }
-            catch (AlreadyExistsEcxeption alreadyExists)
+            catch (AlreadyExistsException alreadyExists)
             {
                 int code = 404;
                 await HandleException(code, alreadyExists, context);
