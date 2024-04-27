@@ -22,7 +22,6 @@ namespace Game_Store.Controllers
 
         public async Task<IActionResult> Index(string? ReturnUrl = null)
         {
-            ViewBag.Authorized = true;
             var model = new LoginVM
             {
                 ReturnUrl = ReturnUrl,
@@ -34,7 +33,6 @@ namespace Game_Store.Controllers
 
         public async Task<IActionResult> LogOut()
         {
-            ViewBag.Authorized = false;
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }

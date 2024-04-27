@@ -43,7 +43,7 @@ namespace Game_Store.Application.useCases.Games.Commands
 
             string photoPath = "";
             string photoName = "";
-            List<string> photosPaths = new List<string>();
+            List<string> photosPaths = new List<string>(); // To hold all photo paths
 
             string ratingsGuidePath = "";
             string ratingsGuideName = "";
