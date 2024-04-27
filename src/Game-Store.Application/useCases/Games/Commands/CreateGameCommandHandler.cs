@@ -27,7 +27,7 @@ namespace Game_Store.Application.useCases.Games.Commands
 
             if (gameChecker is not null)
             {
-                throw new AlreadyExistsEcxeption("Game already exists");
+                throw new AlreadyExistsException("Game already exists");
             }
 
             var posterFile = request.Poster;
@@ -43,7 +43,7 @@ namespace Game_Store.Application.useCases.Games.Commands
 
             string photoPath = "";
             string photoName = "";
-            List<string> photosPaths = new List<string>(); // To hold all photo paths
+            List<string> photosPaths = new List<string>();
 
             string ratingsGuidePath = "";
             string ratingsGuideName = "";

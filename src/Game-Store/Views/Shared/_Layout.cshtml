@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    @if (ViewBag.HideNavbar == null || ViewBag.HideNavbar == false)
+    @if (!Context.Request.Path.StartsWithSegments("/Login"))
     {
         <div class="sidebar">
             <div class="logo-details">
@@ -60,7 +60,7 @@
                     </a>
                     <span class="tooltip">Cart</span>
                 </li>
-                @if (ViewBag.Admin == true)
+                @if (User.IsInRole("Developer"))
                 {
                     <li>
                         <a href="@Url.Action("Index", "NewGame")">
@@ -77,18 +77,34 @@
                         <span class="tooltip">New System Requirements</span>
                     </li>
                 }
-                <li class="profile">
-                    <div class="profile-details">
-                        <img src="profile.jpg" alt="profileImg">
-                        <div class="name_job">
-                            <div class="name">Den Rov</div>
-                            <div class="job">Creator</div>
+                @if (ViewBag.Authorized == true)
+                {
+                    <li class="profile">
+                        <div class="profile-details">
+                            <img src="profile.jpg" alt="">
+                            <div class="name_job">
+                                <div class="name">Den Rov</div>
+                                <div class="job">Creator</div>
+                            </div>
                         </div>
-                    </div>
-                    <a href="@Url.Action("Index", "Login")">
-                        <i class='bx bx-log-out' id="log_out"></i>
-                    </a>
-                </li>
+                        <a href="@Url.Action("LogOut", "Login")">
+                            <i class='bx bx-log-out' id="log_out"></i>
+                        </a>
+                    </li>
+                } else {
+                    <li class="profile">
+                        <div class="profile-details">
+                            <img src="profile.jpg" alt="">
+                            <div class="name_job">
+                                <div class="name">Guest</div>
+                                <div class="job"></div>
+                            </div>
+                        </div>
+                        <a href="@Url.Action("Index", "Login")">
+                            <i class='bx bx-log-in' id="log_in"></i>
+                        </a>
+                    </li>
+                }
             </ul>
         </div>
     }

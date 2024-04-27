@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXB0aW9uc1xFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/Exceptions/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXB0aW9uc1xOb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -49,10 +53,6 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/Exceptions/NotFound.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZXB0aW9uc1xOb3RGb3VuZC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-8jsu2ygrs3
 
 [C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/NewGame/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3R2FtZVxJbmRleC5jc2h0bWw=

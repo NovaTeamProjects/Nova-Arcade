@@ -22,7 +22,7 @@ namespace GameStore.API.Middlewares
             {
                 throw new Exception();
             }
-            catch (AlreadyExistsEcxeption alreadyExists)
+            catch (AlreadyExistsException alreadyExists)
             {
                 int code = 404;
                 await HandleException(code, alreadyExists, context);
