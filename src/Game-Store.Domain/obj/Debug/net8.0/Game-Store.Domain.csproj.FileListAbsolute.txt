@@ -24,3 +24,16 @@ C:\.NetCodes\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domai
 C:\.NetCodes\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\refint\Game-Store.Domain.dll
 C:\.NetCodes\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.pdb
 C:\.NetCodes\Nova-Arcade\src\Game-Store.Domain\obj\Debug\net8.0\ref\Game-Store.Domain.dll
+D:\dt-nt\clones\src\Game-Store.Domain\bin\Debug\net8.0\Game-Store.Domain.deps.json
+D:\dt-nt\clones\src\Game-Store.Domain\bin\Debug\net8.0\Game-Store.Domain.dll
+D:\dt-nt\clones\src\Game-Store.Domain\bin\Debug\net8.0\Game-Store.Domain.pdb
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.csproj.AssemblyReference.cache
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.AssemblyInfoInputs.cache
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.AssemblyInfo.cs
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.csproj.CoreCompileInputs.cache
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.sourcelink.json
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.dll
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\refint\Game-Store.Domain.dll
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\Game-Store.Domain.pdb
+D:\dt-nt\clones\src\Game-Store.Domain\obj\Debug\net8.0\ref\Game-Store.Domain.dll
