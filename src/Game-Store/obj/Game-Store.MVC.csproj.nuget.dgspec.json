@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\Game-Store.MVC.csproj": {}
+    "D:\\dt-nt\\clones\\src\\Game-Store\\Game-Store.MVC.csproj": {}
   },
   "projects": {
-    "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
+    "D:\\dt-nt\\clones\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj",
+        "projectUniqueName": "D:\\dt-nt\\clones\\src\\Game-Store.Application\\Game-Store.Application.csproj",
         "projectName": "Game-Store.Application",
-        "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj",
-        "packagesPath": "C:\\Users\\denro\\.nuget\\packages\\",
-        "outputPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\obj\\",
+        "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store.Application\\Game-Store.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\dt-nt\\clones\\src\\Game-Store.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\denro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
-                "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj"
+              "D:\\dt-nt\\clones\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
+                "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store.Domain\\Game-Store.Domain.csproj"
               }
             }
           }
@@ -90,17 +90,17 @@
         }
       }
     },
-    "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
+    "D:\\dt-nt\\clones\\src\\Game-Store.Domain\\Game-Store.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
+        "projectUniqueName": "D:\\dt-nt\\clones\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
         "projectName": "Game-Store.Domain",
-        "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
-        "packagesPath": "C:\\Users\\denro\\.nuget\\packages\\",
-        "outputPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Domain\\obj\\",
+        "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store.Domain\\Game-Store.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\dt-nt\\clones\\src\\Game-Store.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\denro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,17 +160,17 @@
         }
       }
     },
-    "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
+    "D:\\dt-nt\\clones\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj",
+        "projectUniqueName": "D:\\dt-nt\\clones\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj",
         "projectName": "Game-Store.Infrastructure",
-        "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\denro\\.nuget\\packages\\",
-        "outputPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\obj\\",
+        "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\dt-nt\\clones\\src\\Game-Store.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\denro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -184,8 +184,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
-                "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj"
+              "D:\\dt-nt\\clones\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
+                "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store.Application\\Game-Store.Application.csproj"
               }
             }
           }
@@ -248,17 +248,17 @@
         }
       }
     },
-    "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\Game-Store.MVC.csproj": {
+    "D:\\dt-nt\\clones\\src\\Game-Store\\Game-Store.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\Game-Store.MVC.csproj",
+        "projectUniqueName": "D:\\dt-nt\\clones\\src\\Game-Store\\Game-Store.MVC.csproj",
         "projectName": "Game-Store.MVC",
-        "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\Game-Store.MVC.csproj",
-        "packagesPath": "C:\\Users\\denro\\.nuget\\packages\\",
-        "outputPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\obj\\",
+        "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store\\Game-Store.MVC.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\dt-nt\\clones\\src\\Game-Store\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\denro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -272,11 +272,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
-                "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj"
+              "D:\\dt-nt\\clones\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
+                "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store.Application\\Game-Store.Application.csproj"
               },
-              "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
-                "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj"
+              "D:\\dt-nt\\clones\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
+                "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj"
               }
             }
           }
@@ -296,6 +296,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[11.0.0, )"

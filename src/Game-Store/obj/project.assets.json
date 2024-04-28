@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AspNetCoreRateLimit/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.3",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/net6.0/AspNetCoreRateLimit.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/AspNetCoreRateLimit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Castle.Core/5.1.1": {
         "type": "package",
         "dependencies": {
@@ -1577,6 +1595,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Npgsql/8.0.2": {
         "type": "package",
         "dependencies": {
@@ -2253,6 +2284,18 @@
     }
   },
   "libraries": {
+    "AspNetCoreRateLimit/5.0.0": {
+      "sha512": "6fq9+o1maGADUmpK/PvcF0DtXW2+7bSkIL7MDIo/agbIHKN8XkMQF4oze60DO731WaQmHmK260hB30FwPzCmEg==",
+      "type": "package",
+      "path": "aspnetcoreratelimit/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcoreratelimit.5.0.0.nupkg.sha512",
+        "aspnetcoreratelimit.nuspec",
+        "lib/net6.0/AspNetCoreRateLimit.dll"
+      ]
+    },
     "Castle.Core/5.1.1": {
       "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
       "type": "package",
@@ -4311,6 +4354,36 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.2": {
+      "sha512": "R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Npgsql/8.0.2": {
       "sha512": "MuJzLoWCaQhQAR3oh66YR0Ir6mxuezncGX3f8wxvAc21g0+9HICktJQlqMoODhxztZKXE5k9GxRxqUAN+vPb4g==",
       "type": "package",
@@ -5332,6 +5405,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AspNetCoreRateLimit >= 5.0.0",
       "Game-Store.Application >= 1.0.0",
       "Game-Store.Infrastructure >= 1.0.0",
       "MediatR >= 11.0.0",
@@ -5342,19 +5416,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\denro\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\Game-Store.MVC.csproj",
+      "projectUniqueName": "D:\\dt-nt\\clones\\src\\Game-Store\\Game-Store.MVC.csproj",
       "projectName": "Game-Store.MVC",
-      "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\Game-Store.MVC.csproj",
-      "packagesPath": "C:\\Users\\denro\\.nuget\\packages\\",
-      "outputPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\obj\\",
+      "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store\\Game-Store.MVC.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\dt-nt\\clones\\src\\Game-Store\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\denro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5368,11 +5442,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
-              "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Application\\Game-Store.Application.csproj"
+            "D:\\dt-nt\\clones\\src\\Game-Store.Application\\Game-Store.Application.csproj": {
+              "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store.Application\\Game-Store.Application.csproj"
             },
-            "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
-              "projectPath": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj"
+            "D:\\dt-nt\\clones\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj": {
+              "projectPath": "D:\\dt-nt\\clones\\src\\Game-Store.Infrastructure\\Game-Store.Infrastructure.csproj"
             }
           }
         }
@@ -5392,6 +5466,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AspNetCoreRateLimit": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "MediatR": {
             "target": "Package",
             "version": "[11.0.0, )"

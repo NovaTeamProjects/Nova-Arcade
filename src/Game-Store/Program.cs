@@ -1,3 +1,4 @@
+using AspNetCoreRateLimit;
 using Game_Store.Domain.Entities.Auth;
 using Game_Store.Infrastructure;
 using Game_Store.Infrastructure.Persistance;
@@ -50,6 +51,16 @@ namespace Game_Store
                 options.AddPolicy("User", policy => policy.RequireRole("User"));
             });
 
+
+            builder.Services.AddRazorPages();
+            builder.Services.AddMemoryCache();
+            builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimiting"));
+            builder.Services.Configure<IpRateLimitPolicies>(builder.Configuration.GetSection("IpRateLimitPolicies"));
+            builder.Services.AddInMemoryRateLimiting();
+            builder.Services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
+            builder.Services.AddSingleton<IRateLimitCounterStore, MemoryCacheRateLimitCounterStore>();
+            builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
+
             var app = builder.Build();
 
             if (!app.Environment.IsDevelopment())
@@ -62,6 +73,8 @@ namespace Game_Store
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
+
+            app.UseIpRateLimiting();
 
             app.UseRouting();
 
