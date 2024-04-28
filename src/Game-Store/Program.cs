@@ -3,8 +3,10 @@ using Game_Store.Domain.Entities.Auth;
 using Game_Store.Infrastructure;
 using Game_Store.Infrastructure.Persistance;
 using Game_Store.Middlewares;
+using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Serilog;
+using System.Reflection;
 
 namespace Game_Store
 {
@@ -30,6 +32,8 @@ namespace Game_Store
             builder.Services.AddIdentity<User, IdentityRole<Guid>>()
                 .AddEntityFrameworkStores<NovaStoreDbContext>()
                 .AddDefaultTokenProviders();
+
+            builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 
             builder.Services.AddAuthentication()
                 .AddGoogle(options =>

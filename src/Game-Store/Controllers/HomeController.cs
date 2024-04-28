@@ -1,14 +1,25 @@
+using Game_Store.Application.useCases.Games.Queries;
 using Game_Store.Models;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using MediatR;
 
 namespace Game_Store.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly MediatR.IMediator _mediator;
+        public HomeController(IMediator mediator)
         {
-            return View();
+            _mediator = mediator;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var query = new GetAllGamesQuery();
+            var result = await _mediator.Send(query);
+            return View(result);
         }
 
         public IActionResult Privacy()
