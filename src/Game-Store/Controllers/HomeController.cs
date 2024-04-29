@@ -3,13 +3,12 @@ using Game_Store.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using MediatR;
 
 namespace Game_Store.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly MediatR.IMediator _mediator;
+        private readonly IMediator _mediator;
         public HomeController(IMediator mediator)
         {
             _mediator = mediator;

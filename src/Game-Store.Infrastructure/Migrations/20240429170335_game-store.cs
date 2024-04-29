@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
@@ -6,7 +8,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Game_Store.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class loginwithfacebook : Migration
+    public partial class gamestore : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -59,7 +61,7 @@ namespace Game_Store.Infrastructure.Migrations
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     OS = table.Column<string>(type: "text", nullable: false),
                     CPU = table.Column<string>(type: "text", nullable: false),
-                    Memory = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
+                    RAM = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
                     GPU = table.Column<string>(type: "text", nullable: false),
                     DirectX = table.Column<string>(type: "character varying(15)", maxLength: 15, nullable: false),
                     DiskSpace = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
