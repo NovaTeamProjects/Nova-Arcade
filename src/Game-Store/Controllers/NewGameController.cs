@@ -20,7 +20,7 @@ namespace Game_Store.Controllers
             var result = await _mediator.Send(query);
             return View(result);
         }
-        public IActionResult SysReqCreate()
+        public IActionResult SystemRequirement()
         {
             return View();
         }

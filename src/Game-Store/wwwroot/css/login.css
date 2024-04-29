@@ -61,6 +61,24 @@ form {
     border-radius: 6px;
 }
 
+.field .error {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    color: #d93025;
+    font-size: 13px;
+    display: none;
+}
+
+.invalid .error {
+    display: flex;
+}
+
+.error .error-icon {
+    margin-right: 6px;
+    font-size: 15px;
+}
+
 .field input,
 .field button {
     height: 100%;
@@ -116,7 +134,7 @@ form {
     }
 
 .form a {
-    color: #9a00ff;
+    color: #00d6ff;
     text-decoration: none;
 }
 
@@ -195,4 +213,11 @@ button.google {
     .form {
         padding: 20px 10px;
     }
+}
+
+.password-error {
+    display: none;
+    color: #d93025;
+    font-size: 13px;
+    margin-top: 6px;
 }

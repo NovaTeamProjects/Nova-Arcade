@@ -1,271 +1,279 @@
 {
   "Files": [
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Game-Store.MVC.bundle.scp.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Game-Store.MVC.bundle.scp.css",
       "PackagePath": "staticwebassets\\Game-Store.MVC.bundle.scp.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\assets\\Facebook-Icon.svg",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\assets\\Facebook-Icon.svg",
       "PackagePath": "staticwebassets\\assets\\Facebook-Icon.svg"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\assets\\Google-Icon.svg",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\assets\\Google-Icon.svg",
       "PackagePath": "staticwebassets\\assets\\Google-Icon.svg"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\assets\\Login-BackImage.jpg",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\assets\\Login-BackImage.jpg",
       "PackagePath": "staticwebassets\\assets\\Login-BackImage.jpg"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\assets\\Nova Arcade.svg",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\assets\\Newbie.png",
+      "PackagePath": "staticwebassets\\assets\\Newbie.png"
+    },
+    {
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\assets\\Nova Arcade.svg",
       "PackagePath": "staticwebassets\\assets\\Nova Arcade.svg"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\css\\login.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\css\\SystemRequirement.css",
+      "PackagePath": "staticwebassets\\css\\SystemRequirement.css"
+    },
+    {
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\css\\site.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\favicon.png",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\js\\login.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\js\\site.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\dt-nt\\clones\\src\\Game-Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

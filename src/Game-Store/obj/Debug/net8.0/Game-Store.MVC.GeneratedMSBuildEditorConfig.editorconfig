@@ -54,13 +54,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/NewGame/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3R2FtZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-59x77c25id
+[C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/NewGame/Game.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3R2FtZVxHYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-9ukwmih9ka
 
-[C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/NewGame/SysReqCreate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3R2FtZVxTeXNSZXFDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-ehtwpvdiak
+[C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/NewGame/SystemRequirement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3R2FtZVxTeXN0ZW1SZXF1aXJlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-2ret3xfvs9
 
 [C:/.NetCodes/Nova-Arcade/src/Game-Store/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

@@ -266,8 +266,6 @@ C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\staticwebassets\msbuild
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Game-Store.MVC.props
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Game-Store.MVC.props
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\staticwebassets.pack.json
-C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\scopedcss\Views\NewGame\Index.cshtml.rz.scp.css
-C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\scopedcss\Views\NewGame\SysReqCreate.cshtml.rz.scp.css
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\scopedcss\bundle\Game-Store.MVC.styles.css
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\scopedcss\projectbundle\Game-Store.MVC.bundle.scp.css
@@ -420,3 +418,7 @@ D:\dt-nt\clones\src\Game-Store\obj\Debug\net8.0\refint\Game-Store.MVC.dll
 D:\dt-nt\clones\src\Game-Store\obj\Debug\net8.0\Game-Store.MVC.pdb
 D:\dt-nt\clones\src\Game-Store\obj\Debug\net8.0\Game-Store.MVC.genruntimeconfig.cache
 D:\dt-nt\clones\src\Game-Store\obj\Debug\net8.0\ref\Game-Store.MVC.dll
+C:\.NetCodes\Nova-Arcade\src\Game-Store\bin\Debug\net8.0\AspNetCoreRateLimit.dll
+C:\.NetCodes\Nova-Arcade\src\Game-Store\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\scopedcss\Views\NewGame\Game.cshtml.rz.scp.css
+C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\scopedcss\Views\NewGame\SystemRequirement.cshtml.rz.scp.css

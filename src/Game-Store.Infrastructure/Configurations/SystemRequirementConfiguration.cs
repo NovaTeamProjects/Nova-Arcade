@@ -10,7 +10,11 @@ namespace Game_Store.Infrastructure.Configurations
         {
             builder.Property(x => x.OS)
                     .IsRequired();
-            builder.Property(x => x.Memory)
+
+            builder.Property(x => x.CPU)
+                .IsRequired();
+
+            builder.Property(x => x.RAM)
                     .HasMaxLength(10)
                         .IsRequired();
 
@@ -21,10 +25,8 @@ namespace Game_Store.Infrastructure.Configurations
             builder.Property(x => x.DiskSpace)
                 .HasMaxLength(10)
                     .IsRequired();
-            builder.Property(x => x.LanguagesSupported)
-                .IsRequired();
 
-            builder.Property(x => x.CPU)
+            builder.Property(x => x.LanguagesSupported)
                 .IsRequired();
         }
     }

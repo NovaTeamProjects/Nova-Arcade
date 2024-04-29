@@ -13,8 +13,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Game_Store.Infrastructure.Migrations
 {
     [DbContext(typeof(NovaStoreDbContext))]
-    [Migration("20240424070028_loginwithfacebook")]
-    partial class loginwithfacebook
+    [Migration("20240429170335_game-store")]
+    partial class gamestore
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -234,14 +234,14 @@ namespace Game_Store.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Memory")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("character varying(10)");
-
                     b.Property<string>("OS")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<string>("RAM")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
 
                     b.HasKey("Id");
 

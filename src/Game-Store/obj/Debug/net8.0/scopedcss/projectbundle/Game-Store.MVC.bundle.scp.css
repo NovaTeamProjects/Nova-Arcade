@@ -1,5 +1,5 @@
-/* _content/Game-Store.MVC/Views/NewGame/Index.cshtml.rz.scp.css */
-body[b-59x77c25id] {
+/* _content/Game-Store.MVC/Views/NewGame/Game.cshtml.rz.scp.css */
+body[b-9ukwmih9ka] {
     font-family: 'Arial', sans-serif;
     background-color: #1f1f1f;
     color: #fff;
@@ -7,7 +7,7 @@ body[b-59x77c25id] {
     padding: 0;
 }
 
-.container[b-59x77c25id] {
+.container[b-9ukwmih9ka] {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
@@ -16,17 +16,17 @@ body[b-59x77c25id] {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-h1[b-59x77c25id] {
+h1[b-9ukwmih9ka] {
     text-align: center;
     color: #ff6600;
 }
 
-label[b-59x77c25id] {
+label[b-9ukwmih9ka] {
     display: block;
     margin-bottom: 5px;
 }
 
-input[type="text"][b-59x77c25id], input[type="image"][b-59x77c25id], input[type="number"][b-59x77c25id] {
+input[type="text"][b-9ukwmih9ka], input[type="image"][b-9ukwmih9ka], input[type="number"][b-9ukwmih9ka] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -36,7 +36,7 @@ input[type="text"][b-59x77c25id], input[type="image"][b-59x77c25id], input[type=
     color: #fff;
 }
 
-input[type="submit"][b-59x77c25id] {
+input[type="submit"][b-9ukwmih9ka] {
     width: 100%;
     padding: 10px;
     border: none;
@@ -47,11 +47,11 @@ input[type="submit"][b-59x77c25id] {
     transition: background-color 0.3s ease;
 }
 
-input[type="submit"]:hover[b-59x77c25id] {
+input[type="submit"]:hover[b-9ukwmih9ka] {
     background-color: #ff8c1a;
 }
-/* _content/Game-Store.MVC/Views/NewGame/SysReqCreate.cshtml.rz.scp.css */
-input[b-ehtwpvdiak] {
+/* _content/Game-Store.MVC/Views/NewGame/SystemRequirement.cshtml.rz.scp.css */
+input[b-2ret3xfvs9] {
     width: 625.454546px !important;
 }
 /* _content/Game-Store.MVC/Views/Shared/_Layout.cshtml.rz.scp.css */

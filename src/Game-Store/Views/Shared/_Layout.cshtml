@@ -26,6 +26,16 @@
                 <i class='bx bx-menu' id="btn"></i>
             </div>
             <ul class="nav-list">
+                @if (User.IsInRole("Developer"))
+                {
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-grid-alt'></i>
+                            <span class="links_name">Dashboard</span>
+                        </a>
+                        <span class="tooltip">Dashboard</span>
+                    </li>
+                }
                 <li>
                     <i class='bx bx-search'></i>
                     <input type="text" placeholder="Search store">
@@ -66,28 +76,11 @@
                     </a>
                     <span class="tooltip">Cart</span>
                 </li>
-                @if (User.IsInRole("Developer"))
-                {
-                    <li>
-                        <a href="@Url.Action("Index", "NewGame")">
-                            <i class='bx bx-game'></i>
-                            <span class="links_name">New Game</span>
-                        </a>
-                        <span class="tooltip">New Game</span>
-                    </li>
-                    <li>
-                        <a href="@Url.Action("Index", "NewSystemReqs")">
-                            <i class='bx bx-slider-alt'></i>
-                            <span class="links_name">New System Reqs</span>
-                        </a>
-                        <span class="tooltip">New System Requirements</span>
-                    </li>
-                }
                 @if (User.Identity!.IsAuthenticated)
                 {
                     <li class="profile">
                         <div class="profile-details">
-                            <img src="profile.jpg" alt="">
+                            <img src="~/assets/newbie.png" alt="">
                             <div class="name">@User.Identity.Name</div>
                         </div>
                         <a href="@Url.Action("LogOut", "Login")">
@@ -99,8 +92,8 @@
                 {
                     <li class="profile">
                         <div class="profile-details">
-                            <img src="profile.jpg" alt="">
-                            <div class="name">Guest</div>
+                            <img src="~/assets/Newbie.png" alt="">
+                            <div class="name">Newbie</div>
                         </div>
                         <a href="@Url.Action("Index", "Login")">
                             <i class='bx bx-log-in' id="log_in"></i>

@@ -24,8 +24,4 @@
     <ProjectReference Include="..\Game-Store.Infrastructure\Game-Store.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\assets\" />
-  </ItemGroup>
-
 </Project>

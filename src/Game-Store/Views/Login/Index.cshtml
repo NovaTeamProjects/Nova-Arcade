@@ -8,10 +8,10 @@
             <header>Login</header>
             <form action="#">
                 <div class="field input-field">
-                    <input type="email" placeholder="Email" class="input">
+                    <input type="email" placeholder="Email" class="input" required>
                 </div>
                 <div class="field input-field">
-                    <input type="password" placeholder="Password" class="password">
+                    <input type="password" placeholder="Password" class="password" required>
                     <i class='bx bx-hide eye-icon'></i>
                 </div>
                 <div class="form-link">
@@ -49,17 +49,25 @@
             <header>Sign up</header>
             <form action="#">
                 <div class="field input-field">
-                    <input placeholder="Username" class="input">
+                    <input placeholder="Username" class="input" required>
                 </div>
                 <div class="field input-field">
-                    <input type="email" placeholder="Email" class="input">
+                    <input type="email" placeholder="Email" class="input" required>
+                    <span class="error email-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">Please enter a valid email!</p>
+                    </span>
                 </div>
                 <div class="field input-field">
-                    <input type="password" placeholder="Create password" class="password">
+                    <input type="password" placeholder="Create password" class="password" required>
                 </div>
                 <div class="field input-field">
-                    <input type="password" placeholder="Confirm password" class="password">
+                    <input type="password" placeholder="Confirm password" class="cPassword" required>
                     <i class='bx bx-hide eye-icon'></i>
+                    <span class="error cPassword-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">Passwords don't match!</p>
+                    </span>
                 </div>
                 <div class="field button-field">
                     <button>Sign up</button>
