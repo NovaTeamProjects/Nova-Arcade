@@ -31,6 +31,53 @@ namespace Game_Store.Controllers
             return View(model);
         }
 
+        public async Task<IActionResult> LogIn(LoginVM data)
+        {
+            var user = await _userManager.FindByEmailAsync(data.Email.ToLower());
+
+            if (user == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            var result = await _signInManager.PasswordSignInAsync(user, data.Password, false, false);
+
+            if (!result.Succeeded)
+                throw new Exception("There is an issue with your Sign In!");
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        public async Task<IActionResult> SignUp(LoginVM data)
+        {
+            var user = await _userManager.FindByEmailAsync(data.Email.ToLower());
+
+            if (user != null)
+                return RedirectToAction("Index");
+
+            user = new User()
+            {
+                Id = Guid.NewGuid(),
+                UserName = data.Name,
+                Email = data.Email.ToLower(),
+                EmailConfirmed = true,
+            };
+
+            await _userManager.CreateAsync(user, data.Password);
+
+            if (user.Email.EndsWith("@gamedevs.com"))
+                await _userManager.AddToRoleAsync(user, "Developer");
+            else
+                await _userManager.AddToRoleAsync(user, "User");
+
+            var result = await _signInManager.PasswordSignInAsync(user, data.Password, false, false);
+
+            if (!result.Succeeded)
+                throw new Exception("There is an issue with your Sign Up!");
+
+            return RedirectToAction("Index", "Home");
+        }
+
         public async Task<IActionResult> LogOut()
         {
             await _signInManager.SignOutAsync();
@@ -90,14 +137,11 @@ namespace Game_Store.Controllers
                     if (user == null)
                     {
                         var name = info.Principal.FindFirstValue(ClaimTypes.GivenName);
-                        var surname = info.Principal.FindFirstValue(ClaimTypes.Surname);
 
                         user = new User()
                         {
                             Id = Guid.NewGuid(),
-                            Name = name!,
-                            Surname = surname!,
-                            UserName = name + " " + surname,
+                            UserName = name,
                             Email = userEmail,
                             EmailConfirmed = true,
                         };

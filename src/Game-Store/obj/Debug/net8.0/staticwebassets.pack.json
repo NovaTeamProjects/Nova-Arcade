@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\css\\SystemRequirement.css"
     },
     {
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
       "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
     },
     {
       "Id": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\js\\login.js",
