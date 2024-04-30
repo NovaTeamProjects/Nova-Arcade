@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7NDq4IKdC/RBz2nblcC3ANBGudwny2Lm9hUYAR5Fdzg=",
+  "Hash": "abI26ggZH5Xk1bF8cj1JutCH3SXP+xA2TbUuXOBA9tE=",
   "Source": "Game-Store.MVC",
   "BasePath": "_content/Game-Store.MVC",
   "Mode": "Default",
@@ -150,6 +150,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\Nova Arcade.svg"
     },
     {
+      "Identity": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\css\\dashboard.css",
+      "SourceId": "Game-Store.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\",
+      "BasePath": "_content/Game-Store.MVC",
+      "RelativePath": "css/dashboard.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
+    },
+    {
       "Identity": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\css\\login.css",
       "SourceId": "Game-Store.MVC",
       "SourceType": "Discovered",
@@ -224,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\js\\dashboard.js",
+      "SourceId": "Game-Store.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\",
+      "BasePath": "_content/Game-Store.MVC",
+      "RelativePath": "js/dashboard.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dashboard.js"
     },
     {
       "Identity": "C:\\.NetCodes\\Nova-Arcade\\src\\Game-Store\\wwwroot\\js\\login.js",

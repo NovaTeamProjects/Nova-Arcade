@@ -1,0 +1,84 @@
+﻿<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<div class="sidebar">
+    <div class="logo-details">
+        <img src="~/assets/Nova Arcade.svg" alt="NovaArcadeLogo" class="icon" style="width: 60px; height: 50px" />
+        <div class="logo_name">Nova Arcade</div>
+        <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav-list">
+        <li>
+            <a href="@Url.Action("Index", "Home")">
+                <i class='bx bx-grid-alt'></i>
+                <span class="links_name">Dashboard</span>
+            </a>
+            <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+            <i class='bx bx-search'></i>
+            <input type="text" placeholder="Search store">
+            <span class="tooltip">Search</span>
+        </li>
+        <li>
+            <a href="@Url.Action("SystemRequirement", "Dashboard")">
+                <i class='bx bx-game'></i>
+                <span class="links_name">New Game</span>
+            </a>
+            <span class="tooltip">New Game</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-joystick-button'></i>
+                <span class="links_name">Update Game</span>
+            </a>
+            <span class="tooltip">Update Game</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-trash-alt'></i>
+                <span class="links_name">Delete Game</span>
+            </a>
+            <span class="tooltip">Delete Game</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-wrench'></i>
+                <span class="links_name">Update System Requirement</span>
+            </a>
+            <span class="tooltip">Update System Requirement</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-trash'></i>
+                <span class="links_name">Delete System Requirement</span>
+            </a>
+            <span class="tooltip">Delete System Requirement</span>
+        </li>
+        @if (User.Identity!.IsAuthenticated)
+        {
+            <li class="profile">
+                <div class="profile-details">
+                    <img src="~/assets/newbie.png" alt="">
+                    <div class="name">@User.Identity.Name</div>
+                </div>
+                <a href="@Url.Action("LogOut", "Login")">
+                    <i class='bx bx-log-out' id="log_out"></i>
+                </a>
+            </li>
+        }
+        else
+        {
+            <li class="profile">
+                <div class="profile-details">
+                    <img src="~/assets/Newbie.png" alt="">
+                    <div class="name">Newbie</div>
+                </div>
+                <a href="@Url.Action("Index", "Login")">
+                    <i class='bx bx-log-in' id="log_in"></i>
+                </a>
+            </li>
+        }
+    </ul>
+</div>
+
+<script src="~/js/site.js" asp-append-version="true"></script>

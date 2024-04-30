@@ -421,4 +421,3 @@ D:\dt-nt\clones\src\Game-Store\obj\Debug\net8.0\ref\Game-Store.MVC.dll
 C:\.NetCodes\Nova-Arcade\src\Game-Store\bin\Debug\net8.0\AspNetCoreRateLimit.dll
 C:\.NetCodes\Nova-Arcade\src\Game-Store\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\scopedcss\Views\NewGame\Game.cshtml.rz.scp.css
-C:\.NetCodes\Nova-Arcade\src\Game-Store\obj\Debug\net8.0\scopedcss\Views\NewGame\SystemRequirement.cshtml.rz.scp.css

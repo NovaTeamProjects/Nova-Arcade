@@ -6,19 +6,19 @@
     <div class="form login">
         <div class="form-content">
             <header>Login</header>
-            <form action="#">
+            <form method="post" asp-action="LogIn">
                 <div class="field input-field">
-                    <input type="email" placeholder="Email" class="input" required>
+                    <input type="email" placeholder="Email" class="input" name="Email" required>
                 </div>
                 <div class="field input-field">
-                    <input type="password" placeholder="Password" class="password" required>
+                    <input type="password" placeholder="Password" class="password" name="Password" required>
                     <i class='bx bx-hide eye-icon'></i>
                 </div>
                 <div class="form-link">
                     <a href="#" class="forgot-pass">Forgot password?</a>
                 </div>
                 <div class="field button-field">
-                    <button>Login</button>
+                    <button type="submit">Login</button>
                 </div>
             </form>
             <div class="form-link">
@@ -47,19 +47,19 @@
     <div class="form signup">
         <div class="form-content">
             <header>Sign up</header>
-            <form action="#">
+            <form method="post" asp-action="SignUp">
                 <div class="field input-field">
-                    <input placeholder="Username" class="input" required>
+                    <input placeholder="Name" class="input" name="Name" required>
                 </div>
                 <div class="field input-field">
-                    <input type="email" placeholder="Email" class="input" required>
+                    <input type="email" placeholder="Email" class="input" name="Email" required>
                     <span class="error email-error">
                         <i class="bx bx-error-circle error-icon"></i>
                         <p class="error-text">Please enter a valid email!</p>
                     </span>
                 </div>
                 <div class="field input-field">
-                    <input type="password" placeholder="Create password" class="password" required>
+                    <input type="password" placeholder="Create password" class="password" name="Password" required>
                 </div>
                 <div class="field input-field">
                     <input type="password" placeholder="Confirm password" class="cPassword" required>
@@ -70,7 +70,7 @@
                     </span>
                 </div>
                 <div class="field button-field">
-                    <button>Sign up</button>
+                    <button type="submit">Sign up</button>
                 </div>
             </form>
             <div class="form-link">
